@@ -47,7 +47,7 @@ let containerid = document.querySelector("#containerid");
 
 const worldClocks = document.querySelector('#worldClocks');
 
-const BakuPromise = fetch('http://worldtimeapi.org/api/timezone/Asia/Baku');
+const BakuPromise = fetch('https://worldtimeapi.org/api/timezone/Asia/Baku');
 
 BakuPromise.then((res)=>{
     const secondPromise = res.json();
@@ -68,7 +68,7 @@ BakuPromise.then((res)=>{
     console.log('fetched.');
 })
 
-const IstanbulPromise = fetch('http://worldtimeapi.org/api/timezone/Europe/Istanbul');
+const IstanbulPromise = fetch('https://worldtimeapi.org/api/timezone/Europe/Istanbul');
 
 IstanbulPromise.then((res)=>{
     const secondPromise = res.json();
@@ -90,7 +90,7 @@ IstanbulPromise.then((res)=>{
     console.log('fetched.');
 })
 
-const BerlinPromise = fetch('http://worldtimeapi.org/api/timezone/Europe/Berlin');
+const BerlinPromise = fetch('https://worldtimeapi.org/api/timezone/Europe/Berlin');
 
 BerlinPromise.then((res)=>{
     const secondPromise = res.json();
@@ -112,7 +112,7 @@ BerlinPromise.then((res)=>{
     console.log('fetched.');
 })
 
-const DublinPromise = fetch('http://worldtimeapi.org/api/timezone/Europe/Dublin');
+const DublinPromise = fetch('https://worldtimeapi.org/api/timezone/Europe/Dublin');
 
 DublinPromise.then((res)=>{
     const secondPromise = res.json();
@@ -134,7 +134,7 @@ DublinPromise.then((res)=>{
     console.log('fetched.');
 })
 
-const NYCPromise = fetch('http://worldtimeapi.org/api/timezone/America/New_York');
+const NYCPromise = fetch('https://worldtimeapi.org/api/timezone/America/New_York');
 
 NYCPromise.then((res)=>{
     const secondPromise = res.json();
@@ -156,7 +156,7 @@ NYCPromise.then((res)=>{
     console.log('fetched.');
 })
 
-const LosAngelesPromise = fetch('http://worldtimeapi.org/api/timezone/America/Los_Angeles');
+const LosAngelesPromise = fetch('https://worldtimeapi.org/api/timezone/America/Los_Angeles');
 
 LosAngelesPromise.then((res)=>{
     const secondPromise = res.json();
@@ -178,7 +178,7 @@ LosAngelesPromise.then((res)=>{
     console.log('fetched.');
 })
 
-const BudapestPromise = fetch('http://worldtimeapi.org/api/timezone/Europe/Budapest');
+const BudapestPromise = fetch('https://worldtimeapi.org/api/timezone/Europe/Budapest');
 
 BudapestPromise.then((res)=>{
     const secondPromise = res.json();
@@ -200,7 +200,7 @@ BudapestPromise.then((res)=>{
     console.log('fetched.');
 })
 
-const LondonPromise = fetch('http://worldtimeapi.org/api/timezone/Europe/London');
+const LondonPromise = fetch('https://worldtimeapi.org/api/timezone/Europe/London');
 
 LondonPromise.then((res)=>{
     const secondPromise = res.json();
@@ -222,7 +222,7 @@ LondonPromise.then((res)=>{
     console.log('fetched.');
 })
 
-const MoscowPromise = fetch('http://worldtimeapi.org/api/timezone/Europe/Moscow');
+const MoscowPromise = fetch('https://worldtimeapi.org/api/timezone/Europe/Moscow');
 
 MoscowPromise.then((res)=>{
     const secondPromise = res.json();
@@ -245,7 +245,7 @@ MoscowPromise.then((res)=>{
 })
 
 
-const RomePromise = fetch('http://worldtimeapi.org/api/timezone/Europe/Rome');
+const RomePromise = fetch('https://worldtimeapi.org/api/timezone/Europe/Rome');
 
 RomePromise.then((res)=>{
     const secondPromise = res.json();
@@ -267,7 +267,7 @@ RomePromise.then((res)=>{
     console.log('fetched.');
 })
 
-const MadridPromise = fetch('http://worldtimeapi.org/api/timezone/Europe/Madrid');
+const MadridPromise = fetch('https://worldtimeapi.org/api/timezone/Europe/Madrid');
 
 MadridPromise.then((res)=>{
     const secondPromise = res.json();
@@ -311,7 +311,7 @@ MadridPromise.then((res)=>{
 //     console.log('fetched.');
 // })
 
-const ViennaPromise = fetch('http://worldtimeapi.org/api/timezone/Europe/Vienna');
+const ViennaPromise = fetch('https://worldtimeapi.org/api/timezone/Europe/Vienna');
 
 ViennaPromise.then((res)=>{
     const secondPromise = res.json();
